@@ -1,0 +1,22 @@
+   51  git init
+   52  git remote add origin https://github.com/Andrea-huallpayunca/Checkpoint-ClaudiaAndreaHuallpayuncaHuallpa-21-08-2023.git
+   53  git branch -M main
+   54  git push -u origin main
+   55  git remote -v
+   56  touch main.js
+   57  touch index.html
+   58  git add .
+   59  git commit -m "commit 01 de ClaudiaAndreaHuallpayuncaHuallpa"
+   60  git push origin main
+   61  git branch feature
+   62  git switch feature
+   63  mkdir Hardware Software SeguridadInformatica
+   64  touch Hardware/resumen.txt Software/resumen.txt SeguridadInformatica/resumen.txt
+   65  git add .
+   66  git commit -m "commit 02 de ClaudiaAndreaHuallpayuncaHuallpa"
+   67  git push origin feature
+   68  git switch main
+   69  mv main.js resumenHardware.txt
+   70  mv index.html resumenSoftware.txt
+   71  touch comandos.txt
+   72  history
